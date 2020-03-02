@@ -27,7 +27,7 @@ function ListImage() {
     return (
       <InfiniteScroll
         dataLength={images.length}
-        next={() => fetchImages(5)}
+        next={() => fetchImages(6)}
         hasMore={true}
         loader={<h3>Load Image..</h3>}
       >
