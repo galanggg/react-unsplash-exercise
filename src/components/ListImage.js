@@ -35,7 +35,7 @@ function ListImage() {
       hasMore={true}
       loader={<h3>Load Image..</h3>}
     >
-      <div className="list-images" style={{ marginTop: '30px' }}>
+      <div className="list-images card-columns" style={{ marginTop: '30px' }}>
         {loading
           ? images.map((image) => (
               <Image url={image.urls.regular} key={image.user.username} />

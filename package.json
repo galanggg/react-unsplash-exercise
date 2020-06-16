@@ -7,13 +7,16 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-image-lightbox": "^5.1.1",
     "react-infinite-scroll-component": "^5.0.4",
     "react-lazy-images": "^1.1.0",
     "react-lazy-load-image-component": "^1.4.1",
-    "react-scripts": "3.4.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
