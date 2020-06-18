@@ -5,7 +5,7 @@ const ImageFilter = ({ data }) => {
     <div className="image-grid">
       {data.map((image, key) => (
         <div className="image-item" key={key}>
-          <img src={image.urls.regular} />
+          <img src={image.urls.small} alt="img" />
         </div>
       ))}
     </div>

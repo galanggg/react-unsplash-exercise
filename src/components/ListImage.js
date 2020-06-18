@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Axios from 'axios'
 import InfiniteScroll from 'react-infinite-scroll-component'
-import Lightbox from 'react-image-lightbox'
+// import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 
 import Image from './Image'
@@ -9,7 +9,7 @@ import Image from './Image'
 function ListImage() {
   const [images, setImages] = useState([])
   const [loading, setLoading] = useState(false)
-  const [open, setOpen] = useState(false)
+
   const fetchImages = (count = 6) => {
     const apiRoot = `https://api.unsplash.com`
     const apiKey = `59d1c9f50a0284393d706c73425c524875694a08ba1bad3e148db8dc748ab1d7`

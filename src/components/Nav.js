@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         UNSPLASH
       </a>
       <button

@@ -26,33 +26,35 @@ function Filter() {
 
   console.log(results)
   return (
-    <div className="row">
-      <form className="mx-auto mt-4">
-        <div className="form-row align-items-center mx-auto">
-          <div className="col-auto">
-            <label className="sr-only" htmlFor="inlineFormInput">
-              Images
-            </label>
-            <input
-              type="text"
-              className="form-control mb-2"
-              value={values}
-              onChange={onChange}
-              id="inlineFormInput"
-              placeholder="Photography"
-            />
+    <div>
+      <div className="row">
+        <form className="mx-auto mt-4">
+          <div className="form-row align-items-center mx-auto">
+            <div className="col-auto">
+              <label className="sr-only" htmlFor="inlineFormInput">
+                Images
+              </label>
+              <input
+                type="text"
+                className="form-control mb-2"
+                value={values}
+                onChange={onChange}
+                id="inlineFormInput"
+                placeholder="Photography"
+              />
+            </div>
+            <div className="col-auto">
+              <button
+                type="submit"
+                className="btn btn-primary mb-2"
+                onClick={handleSubmit}
+              >
+                Search
+              </button>
+            </div>
           </div>
-          <div className="col-auto">
-            <button
-              type="submit"
-              className="btn btn-primary mb-2"
-              onClick={handleSubmit}
-            >
-              Search
-            </button>
-          </div>
-        </div>
-      </form>
+        </form>
+      </div>
       {show ? <ImageFilter data={results} /> : null}
     </div>
   )
