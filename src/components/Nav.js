@@ -27,7 +27,7 @@ function Nav() {
           </li>
           <li className="nav-item">
             <Link to="/filter" className="nav-link">
-              Filter
+              Search
             </Link>
           </li>
         </ul>

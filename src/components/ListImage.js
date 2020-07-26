@@ -38,7 +38,7 @@ function ListImage() {
       <div className="list-images card-columns" style={{ marginTop: '30px' }}>
         {loading
           ? images.map((image) => (
-              <Image url={image.urls.regular} key={image.user.username} />
+              <Image url={image.urls.regular} key={image.user.id} />
             ))
           : ''}
       </div>
