@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import ImageFilter from './ImageFilter'
 
 function Filter() {
@@ -24,7 +24,6 @@ function Filter() {
     setResults(data.results)
   }
 
-  console.log(results)
   return (
     <div>
       <div className="row">

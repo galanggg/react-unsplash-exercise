@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Axios from 'axios'
 import InfiniteScroll from 'react-infinite-scroll-component'
-// import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 
 import Image from './Image'
