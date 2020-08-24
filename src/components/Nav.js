@@ -30,6 +30,11 @@ function Nav() {
               Search
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/experiment" className="nav-link">
+              Experiment
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
