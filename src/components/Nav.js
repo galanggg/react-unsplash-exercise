@@ -35,6 +35,11 @@ function Nav() {
               Experiment
             </Link>
           </li>
+          <li className="nav-item">
+            <Link to="/Debouncing" className="nav-link">
+              Debouncing Experiment
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -10,7 +10,7 @@ const useIO = (options) => {
 
   useEffect(() => {
     if (elements.length) {
-      console.log('-----CONNECTING OBSERVER------')
+      console.log('Mulai Observer')
       observer.current = new IntersectionObserver(
         (ioEntries) => {
           setEntries(ioEntries)
@@ -28,7 +28,7 @@ const useIO = (options) => {
     }
     return () => {
       if (observer.current) {
-        console.log('-----DISCONNECTING OBSERVER------')
+        console.log('Selesai Observer')
         observer.current.disconnect()
       }
     }

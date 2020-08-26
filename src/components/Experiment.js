@@ -8,7 +8,7 @@ import fallbackImage from '../assets/Infinity-1s-205px.svg'
 const Experiment = () => {
   const apiRoot = `https://api.unsplash.com`
   const apiKey = `59d1c9f50a0284393d706c73425c524875694a08ba1bad3e148db8dc748ab1d7`
-  const count = 50
+  const count = 15
 
   const [data, setData] = useState([])
 
